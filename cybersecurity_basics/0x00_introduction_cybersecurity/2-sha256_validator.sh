@@ -1,2 +1,3 @@
 #!/bin/bash
-if [ "$(sha256sum "$1" | cut -d ' ' -f 1)" == "$2" ]; then echo "$1: OK"; else echo "$1: FAILED"; fi
+echo "$2  $1" > /tmp/expected_hash.sha256
+sha256sum -c /tmp/expected_hash.sha256
