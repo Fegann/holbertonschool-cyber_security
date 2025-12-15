@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "$2  $1" > /tmp/expected_hash.sha256
-sha256sum -c /tmp/expected_hash.sha256
+echo "$2  $1" | sha256sum -c - &>/dev/null && echo "$1: OK" || echo "$1: FAILED" 
