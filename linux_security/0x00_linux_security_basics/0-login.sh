@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 5 /var/log/auth.log
+sudo head -n 5 /var/log/auth.log
