@@ -1,1 +1,1 @@
-passive.hbtn. 604800 IN TXT "Holberton Sec Lab - babbc0a3fff758878f887fcc71875325"
+Holberton Sec Lab - babbc0a3fff758878f887fcc71875325
