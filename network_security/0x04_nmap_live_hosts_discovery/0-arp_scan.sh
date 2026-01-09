@@ -1,2 +1,2 @@
-subnet="$1"
-sudo nmap -sn "$subnet"
+#!/bin/bash
+sudo nmap -sn "$1"
