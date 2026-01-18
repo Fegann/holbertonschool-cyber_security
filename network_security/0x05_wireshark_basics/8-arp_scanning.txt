@@ -1,1 +1,1 @@
-arp and frame.len == 42
+arp and arp.dst.hw_mac == ff-ff-ff-ff-ff-ff
