@@ -1,1 +1,1 @@
-(tcp.flag == 0x002 and tcp.window_size <= 8192) or (tcp.flags == 0x012 and tcp.windows_size <= 5840) or (tcp.flags == 0x010 and tcp.windows_size <= 17520)
+tcp.flags.syn == 1 and tcp.flags.ack == 1 
