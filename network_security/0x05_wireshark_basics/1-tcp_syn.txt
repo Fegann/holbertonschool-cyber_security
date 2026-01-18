@@ -1,1 +1,1 @@
-tcp.syn.flags == 1
+tcp.flags.syn == 1
