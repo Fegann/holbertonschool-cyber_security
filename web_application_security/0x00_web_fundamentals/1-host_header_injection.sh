@@ -1,9 +1,2 @@
 #!/bin/bash
-NEW_HOST = "$1"
-TARGET_URL = "$2"
-FORM_DATA = "$3"
-
-curl -X POST\
-	-H "Host: ${NEW_HOST}"\
-	--data "${FORM_DATA}"\
-	"${TARGET_URL}"
+curl -s -X POST "$2" _H "Host: $1" -H "Content-Type: application/x-www-form-urlencoded" --data "$3"
