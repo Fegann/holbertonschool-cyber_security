@@ -1,1 +1,2 @@
-namp -sX -p 440-450 -v $1
+#!/bin/bash
+sudo namp -sX -p 440-450 -vv $1
