@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '3p' dmseg
+sed -n '3p' dmesg
