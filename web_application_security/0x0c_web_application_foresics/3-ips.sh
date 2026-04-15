@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "Accepted" auth.log | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | sort | uniq | wc -l
+tail -1000 auth.log | grep "Accepted" | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | sort | uniq | wc -l
