@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '6'
+grep "iptables" auth.log | grep "\-A" | wc -l
