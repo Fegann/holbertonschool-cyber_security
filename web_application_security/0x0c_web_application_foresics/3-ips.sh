@@ -1,2 +1,2 @@
 #!/bin/bash
-grep 'Accepted' auth.log | awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}' | sort | uniq | wc -l 
+grep "Accepted" auth.log | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | sort | uniq | wc -l
