@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "new user" auth.log | cut -d '=' -f 2 | cut -d ',' -f 1 | tr '\n' ',' | sed 's/,$//' | sort
+grep "new user" auth.log | cut -d '=' -f 2 | cut -d ',' -f 1 | sort | tr '\n' ',' | sed 's/,$//'
