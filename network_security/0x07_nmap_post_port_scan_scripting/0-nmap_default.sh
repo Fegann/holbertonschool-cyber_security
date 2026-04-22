@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sV -sC $1
+nmap -sV -sC $1
