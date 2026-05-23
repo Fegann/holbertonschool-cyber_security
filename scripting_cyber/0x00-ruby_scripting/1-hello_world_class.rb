@@ -4,8 +4,8 @@ class HelloWorld
     @message = message
   end 
   def print_hello
-    @message
+    puts @message
   end
 end
 hello_world_instance = HelloWorld.new("Hello, World!")
-puts "hello_world_instance.print_hello"
+hello_world_instance.print_hello
