@@ -7,3 +7,5 @@ class HelloWorld
     @message
   end
 end
+hello_world_instance = HelloWorld.new("Hello, World!")
+hello_world_instance.print_hello
