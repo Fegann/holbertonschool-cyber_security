@@ -8,4 +8,4 @@ class HelloWorld
   end
 end
 hello_world_instance = HelloWorld.new("Hello, World!")
-hello_world_instance.print_hello
+puts "hello_world_instance.print_hello"
