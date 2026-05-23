@@ -15,6 +15,7 @@ OptionParser.new do |opts|
 
   opts.on("-l", "--list", "List all tasks") do
     if File.exist?(file_path)
+      puts "Tasks:"
       File.readlines(file_path).each_with_index do |line, index|
         puts "#{index + 1}. #{line.chomp}"
       end
